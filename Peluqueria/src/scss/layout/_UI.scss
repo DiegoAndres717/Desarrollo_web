@@ -1,0 +1,15 @@
+
+body {
+    background-color: $negro;
+}
+.contenedor-estetica {
+    @include tablet {
+        height: 100vh;
+        @include grid(2, $separacion);
+    }
+}
+.imagen {
+    height: 30rem;
+    background-image: url(../../img/1.jpg);
+
+}

@@ -1,0 +1,33 @@
+{
+  "name": "festival-de-musica",
+  "version": "1.0.0",
+  "description": "Aprendiendo Gulp y SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SAAS",
+    "Gulp",
+    "Web",
+    "desing"
+  ],
+  "author": "Diego Andres Salas",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "cssnano": "^5.1.12",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "imagemin": "^8.0.1"
+  },
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
+}
